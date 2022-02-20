@@ -38,5 +38,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://braven85.github.io/goit-react-hw-03-phonebook/"
+  "homepage": "https://braven85.github.io/goit-react-hw-03-phonebook/",
+  "devDependencies": {
+    "prop-types": "^15.8.1"
+  }
 }
