@@ -1,5 +1,26 @@
+* {
+  margin: 3px;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+a:hover {
+  color: #0000ff;
+}
+
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .App-logo {

@@ -1,0 +1,55 @@
+.FormInput {
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  border: 2px solid #000000;
+  padding: 10px;
+  width: 50%;
+  background-color: #d7f6ff;
+}
+
+.FormInput__label {
+  width: 100%;
+}
+
+.FormInput__input {
+  width: 80%;
+  font-size: 14px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #808080;
+}
+
+.FormInput__input:focus {
+  outline: none;
+  box-shadow: 0 0 5px 5px #67aeff;
+  border: 1px solid #808080;
+  border-radius: 5px;
+}
+
+.FormInput__button {
+  width: 40%;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 1px solid #808080;
+  color: #000000;
+  background-color: #ffffff;
+  padding: 3px 10px 3px 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.FormInput__button:hover {
+  cursor: pointer;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.FormInput__button:active {
+  background-color: #00ca00;
+  box-shadow: 0 0 5px 2px #00ca00;
+  border: none;
+}

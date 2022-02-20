@@ -1,0 +1,28 @@
+.Filter__container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.Filter__label {
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.Filter__input {
+  width: 90%;
+  font-size: 24px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #808080;
+  outline: none;
+}
+
+.Filter__input:focus {
+  outline: none;
+  box-shadow: 0 0 10px 3px #0400ff;
+  border: 1px solid #808080;
+  border-radius: 5px;
+}
